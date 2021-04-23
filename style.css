@@ -1,0 +1,99 @@
+.detail {
+    display: none;
+}
+.setting {
+    display: none;
+}
+.active {
+    display: block;
+}
+
+#status {
+    text-align: center;
+    margin-top: 5rem;
+    color: #6c757d;
+    font-size: 30px;
+    
+}
+
+#date {
+    text-align: center;
+    color: #6c757d;
+    font-size: 30px;
+}
+
+#currentTime {
+    text-align: center;
+    color: #6c757d;
+    font-size: 80px;
+}
+
+.detail {
+    color: #6c757d;
+}
+
+#more {
+    padding: 5px 8px;
+    margin: auto;
+    border-radius: 20px;
+    border: 0;
+    background: #ff416c; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #ff4b2b,
+      #ff416c
+      ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #ff4b2b,
+      #ff416c
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  #more:hover{
+    background: #d4123f;
+  }
+
+  #moreDetail {
+    background-color: #55585a;
+    color: #bada55;
+    width: 30%;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  #settingDiv {
+    background-color: #55585a;
+    color: #bada55;
+    width: 30%;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  #setting {
+    padding: 5px 8px;
+    border-radius: 20px;
+    border: 0;
+    background: #ff416c; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #ff4b2b,
+        #ff416c
+        ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #ff4b2b,
+        #ff416c
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-size: 1.5rem;
+      } 
+
+    #setting:hover {
+        background: #d4123f;
+      }
+   
